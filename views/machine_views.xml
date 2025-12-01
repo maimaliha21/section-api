@@ -24,7 +24,7 @@
                         <group>
                             <group>
                                 <field name="name"/>
-                                <field name="section_id" options="{'no_create': True}"/>
+                                <field name="section_id" required="1" options="{'no_create': True}"/>
                             </group>
                             <group>
                                 <field name="section_name" readonly="1"/>
@@ -65,11 +65,12 @@
             </field>
         </record>
 
-        <menuitem id="menu_machines" 
+        <!-- Machines menu hidden - only Kiosk Machines should be visible -->
+        <!-- <menuitem id="menu_machines" 
                   name="Machines" 
-                  parent="menu_sections"
+                  parent="point_of_sale.menu_point_config_product"
                   action="action_machine" 
-                  sequence="20"/>
+                  sequence="31"/> -->
     </data>
 </odoo>
 

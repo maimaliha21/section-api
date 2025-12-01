@@ -9,7 +9,6 @@
                     <field name="name"/>
                     <field name="section_id"/>
                     <field name="location"/>
-                    <field name="machine_ids" widget="statinfo" string="Machines"/>
                     <field name="active" widget="boolean_toggle"/>
                 </list>
             </field>
@@ -33,17 +32,6 @@
                                 <field name="updated_at" readonly="1"/>
                             </group>
                         </group>
-                        <notebook>
-                            <page string="Machines">
-                                <field name="machine_ids" nolabel="1">
-                                    <tree string="Machines">
-                                        <field name="name"/>
-                                        <field name="created_at"/>
-                                        <field name="active" widget="boolean_toggle"/>
-                                    </tree>
-                                </field>
-                            </page>
-                        </notebook>
                     </sheet>
                 </form>
             </field>
