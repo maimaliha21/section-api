@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_kiosk_section_user,kiosk.section.user,model_kiosk_section,base.group_user,1,1,1,1
+access_kiosk_section_public,kiosk.section.public,model_kiosk_section,,1,1,1,1
+access_section_machine_user,section.machine.user,model_section_machine,base.group_user,1,1,1,1
+access_section_machine_public,section.machine.public,model_section_machine,,1,1,1,1
+
